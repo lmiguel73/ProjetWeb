@@ -1,0 +1,35 @@
+h1 {
+    font-family: cursive;
+    font-size: 70px;
+    text-shadow: 4px 4px 6px #943b00;
+}
+h3 {
+    margin-top: 0;
+}
+h2 {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+    font-family: Comic Sans MS;
+    padding: 10px;
+    margin: 15px 0 50px;
+}
+.titre {
+    background: #943b00;
+    color: #fff;
+    padding: 10px;
+}
+a {
+	font-size: 20px;
+    font-weight: bold;
+    color: #943b00;
+}
+.active {
+    background: #943b00;
+}
+.active > a {
+    color: #fff;
+}
+.nav > li > a:hover{
+	background: #000000;
+	color: #fff;
+}
